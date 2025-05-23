@@ -70,16 +70,20 @@ async def show_random_emojis(message):
     return emoji_message
 
 # Inline keyboard for start command
-BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact", url="https://t.me/Skcoder21bot")]])
+# Contact button (make sure the username is correct)
+BUTTONSCONTACT = InlineKeyboardMarkup(
+    [[InlineKeyboardButton(text="📞 Contact", url="https://t.me/Skcoder21bot")]]
+)
+
+# Main keyboard with working links
 keyboard = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/Skcoder21bot."),
+            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/Skcoder21bot"),
             InlineKeyboardButton(text="🛠️ Repo", url="https://github.com/sandeepsaini-sk/telebot"),
         ],
     ]
 )
-
 # Image URLs for the random image feature
 image_urls = [
     "https://tinypic.host/images/2025/02/07/IMG_20250207_224444_975.jpg",
