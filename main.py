@@ -1146,4 +1146,9 @@ async def text_handler(bot: Client, m: Message):
 
 
 
-bot.run()
+while True:
+    try:
+        bot.run()
+    except Exception as e:
+        print(f"Bot crashed: {e}. Restarting...")
+        time.sleep(10)  # Wait before restarting
