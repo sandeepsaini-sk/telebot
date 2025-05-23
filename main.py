@@ -87,7 +87,7 @@ keyboard = InlineKeyboardMarkup(
 # Image URLs for the random image feature
 image_urls = [
     "https://tinypic.host/images/2025/02/07/IMG_20250207_224444_975.jpg",
-    "https://tinypic.host/images/2025/02/07/DeWatermark.ai_1738952933236-1.png",
+    "https://www.google.com/imgres?q=bot%20thumbnail&imgurl=https%3A%2F%2Fimages.wallpapersden.com%2Fimage%2Fdownload%2Fastro-bot-rescue-mission-robot_bGtlbGeUmZqaraWkpJRmbmdlrWZlbWU.jpg&imgrefurl=https%3A%2F%2Fwallpapersden.com%2Fastro-bot-rescue-mission-robot-wallpaper%2F&docid=tfwJk5Evz6Tj5M&tbnid=6d3dZeuFKcj39M&vet=12ahUKEwjThJvvhLmNAxWk8zgGHT5zGR4QM3oECGEQAA..i&w=1920&h=1080&hcb=2&ved=2ahUKEwjThJvvhLmNAxWk8zgGHT5zGR4QM3oECGEQAA",
     # Add more image URLs as needed
 ]
 
