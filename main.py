@@ -1173,5 +1173,5 @@ while True:
     try:
         bot.run()
     except Exception as e:
-        print(f"Bot crashed: {e}. Restarting...")
+        print(f"Bot crashed: {e}. Restarting...........")
         time.sleep(10)  # Wait before restarting
