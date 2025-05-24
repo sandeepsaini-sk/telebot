@@ -19,16 +19,7 @@ def hello_world():
 <body>
     <div class="container" style="bg-dark text-red text-center py-3 mt-5">
         <a href="https://github.com/nikhilsaini098" class="card">
-            <p>
-              />▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄<br 
-	      />██░▄▄▄░█░▄▄▀█▄░▄██░▀██░█▄░▄██<br 
-              />██▄▄▄▀▀█░▀▀░██░███░█░█░██░███<br 
-	      />██░▀▀▀░█░██░█▀░▀██░██▄░█▀░▀██<br 
-              />▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀<br />
-                                             <br>
-
-                <b>v2.0.0</b>
-            </p>
+              <b>Skcoder</b>
         </a>
     </div>
 	<br></br><br></br><br></br>
