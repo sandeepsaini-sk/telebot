@@ -1144,30 +1144,7 @@ async def text_handler(bot: Client, m: Message):
         await m.reply_text(str(e))
 
 
-@bot.on_message(filters.command("start"))
-async def start(client, message):
-    print(f"/start received from {message.from_user.id}")
-    await message.reply_text("Bot is alive!")
-from pyrogram.errors import FloodWait
 
-@bot.on_message(filters.command("drm"))
-async def download_handler(client, message):
-    try:
-        # Your code here
-    except FloodWait as e:
-        await message.reply_text(f"⚠️ Too many requests. Wait {e.x} seconds.")
-        time.sleep(e.x)
-
-async def main():
-    while True:
-        try:
-            await bot.start()
-            await idle()
-        except Exception as e:
-            print(f"Error: {e}. Restarting in 10s...")
-            await asyncio.sleep(10)
-
-asyncio.run(main())
 
 while True:
     try:
