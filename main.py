@@ -94,7 +94,7 @@ image_urls = [
 @bot.on_message(filters.command("addauth") & filters.private)
 async def add_auth_user(client: Client, message: Message):
     if message.chat.id != OWNER:
-        return await message.reply_text("You are not authorized to use this command.")
+        return await message.reply_text("You are not authorized to use this command.....")
     
     try:
         new_user_id = int(message.command[1])
