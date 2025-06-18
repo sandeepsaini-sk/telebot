@@ -99,7 +99,7 @@ async def add_auth_user(client: Client, message: Message):
     try:
         new_user_id = int(message.command[1])
         if new_user_id in AUTH_USERS:
-            await message.reply_text("User ID is already authorized.")
+            await message.reply_text("User ID is already authorized.......")
         else:
             AUTH_USERS.append(new_user_id)
             # Update the environment variable (if needed)
